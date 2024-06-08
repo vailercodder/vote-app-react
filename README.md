@@ -1,9 +1,25 @@
-# React + Vite
+##Voting Application
+##This project is a Voting Application built with React, utilizing Vite for the setup. The application includes login, voting, and admin pages, with data management handled via MockAPI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Features
+Login Page: Users can log in with their email and password.
+Voting Page: Users can vote for their favorite candidate.
+Admin Page: Admin users can view all users and their voting status.
+Data Management: Utilizes MockAPI to store user and vote data.
+Responsive Design: Ensures a good user experience across different devices.
+Usage
+Login
+Users can log in using the following credentials:
 
-Currently, two official plugins are available:
+####Admin User:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# vote-app-react
+Email: elad@example.com
+Password: goodDaytoYouElad
+Regular User:
+
+Email: jane.smith@example.com
+Password: password123
+Voting
+Log in using the provided credentials.
+Regular users will be redirected to the voting page where they can vote for their favorite candidate.
+Admin users will be redirected to the admin page where they can view all users and their voting status.

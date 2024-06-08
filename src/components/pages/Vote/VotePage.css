@@ -1,0 +1,47 @@
+.vote-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.candidates {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.candidate {
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background-color: #f0f2f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1 1 200px;
+  max-width: 300px; 
+}
+
+.candidate:hover {
+  background-color: #e0e4e8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .candidates {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .candidate {
+    width: 80%; 
+    max-width: none; /
+  }
+}
+
+@media (max-width: 480px) {
+  .candidate {
+    width: 100%; 
+    padding: 15px;
+  }
+}
