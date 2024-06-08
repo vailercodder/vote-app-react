@@ -1,7 +1,8 @@
-##Voting Application
-##This project is a Voting Application built with React, utilizing Vite for the setup. The application includes login, voting, and admin pages, with data management handled via MockAPI.
 
-###Features
+Voting Application
+This project is a Voting Application built with React, utilizing Vite for the setup. The application includes login, voting, and admin pages, with data management handled via MockAPI.
+
+Features
 Login Page: Users can log in with their email and password.
 Voting Page: Users can vote for their favorite candidate.
 Admin Page: Admin users can view all users and their voting status.
@@ -11,7 +12,7 @@ Usage
 Login
 Users can log in using the following credentials:
 
-####Admin User:
+Admin User:
 
 Email: elad@example.com
 Password: goodDaytoYouElad
